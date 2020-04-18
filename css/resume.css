@@ -4,6 +4,10 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
  */
 
+/* html {
+  scroll-behavior: smooth;
+} */
+
 body {
   font-family: 'Muli', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   padding-top: 54px;
@@ -47,11 +51,18 @@ p.lead {
   font-weight: 400;
 }
 
-.subheading {
+.subheading-1 {
   text-transform: uppercase;
   font-weight: 500;
   font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   font-size: 1.5rem;
+}
+
+.subheading-2 {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-size: 1.2rem;
 }
 
 .social-icons a {
@@ -83,28 +94,48 @@ p.lead {
   font-size: 1rem;
 }
 
-.dev-icons .fa-html5:hover {
+.dev-icons .fa-html5 {
   color: #E34C26;
 }
 
-.dev-icons .fa-css3-alt:hover {
+.dev-icons .fa-css3-alt {
   color: #264de4;
 }
 
-.dev-icons .fa-js-square:hover {
+.dev-icons .fa-js-square {
   color: #F0DB4F;
 }
 
-.dev-icons .icon-Perl:hover {
-  color: #000;
+.dev-icons .fa-php {
+  color: #787CB5;
 }
 
-.dev-icons .fa-python:hover {
+.dev-icons .fa-bootstrap {
+  color: #563d7c ;
+}
+
+.dev-icons .fa-linux {
+  color: #0B57A4;
+}
+
+.dev-icons .icon-perl-icon {
+  color: #0096C6;
+}
+
+.dev-icons .fa-r-project {
+  color: #165CAA;
+}
+
+.dev-icons .fa-python {
   color: #4584b6;
 }
 
-.dev-icons .fa-aws:hover {
+.dev-icons .fa-aws {
   color: #FF9900;
+}
+
+.dev-icons .fa-github {
+  color: #231E1B;
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
@@ -182,7 +213,7 @@ section.resume-section {
 section.resume-section .img-profile {
   max-width: 15rem;
   max-height: 15rem;
-  border: 0.5rem solid rgba(189, 93, 56, 0.2);
+  border: 0.5rem solid rgba(189, 93, 56, 0.7);
 }
 
 section.resume-section .resume-item .resume-date {
@@ -219,4 +250,51 @@ a {
 
 a:hover, a:focus, a:active {
   color: #824027;
+}
+
+/*****************
+FOOTER
+******************/
+
+footer {
+  height: 56px;
+  color: #fff;
+  background-color: #BD5D38;
+}
+
+@media (min-width: 992px) {
+  footer {
+    background-color: transparent;
+    color: #868e96;
+  }
+}
+
+
+/*************************** 
+Back to top button
+*****************************/
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 100px;
+  right: 40px;
+  z-index: 99;
+  border: none;
+  outline: 0;
+  background: #868e96;
+  color: #fff;
+  cursor: pointer;
+  padding: 15px;
+  font-size: 18px;
+}
+
+#myBtn:hover {
+  background-color: #BD5D38;
+}
+
+#myBtn i {
+  width: 30px;
+  height: 30px;
+  font-size: 28px;
 }

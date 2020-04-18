@@ -25,6 +25,25 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-Perl:before {
+.icon-perl-icon:before {
   content: "\e900";
+}
+.icon-visual-studio-code-1 .path1:before {
+  content: "\e901";
+  color: rgb(36, 137, 202);
+}
+.icon-visual-studio-code-1 .path2:before {
+  content: "\e902";
+  margin-left: -1.0185546875em;
+  color: rgb(16, 112, 179);
+}
+.icon-visual-studio-code-1 .path3:before {
+  content: "\e903";
+  margin-left: -1.0185546875em;
+  color: rgb(8, 119, 185);
+}
+.icon-visual-studio-code-1 .path4:before {
+  content: "\e904";
+  margin-left: -1.0185546875em;
+  color: rgb(60, 153, 212);
 }
