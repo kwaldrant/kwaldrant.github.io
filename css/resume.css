@@ -72,15 +72,39 @@ p.lead {
 }
 
 .social-icons a:hover {
-  background-color: #BD5D38;
+  background-color: rgb(189, 93, 56);
 }
 
 .dev-icons {
   font-size: 3rem;
 }
 
-.dev-icons .list-inline-item i:hover {
-  color: #BD5D38;
+.dev-icons p {
+  font-size: 1rem;
+}
+
+.dev-icons .fa-html5:hover {
+  color: #E34C26;
+}
+
+.dev-icons .fa-css3-alt:hover {
+  color: #264de4;
+}
+
+.dev-icons .fa-js-square:hover {
+  color: #F0DB4F;
+}
+
+.dev-icons .icon-Perl:hover {
+  color: #000;
+}
+
+.dev-icons .fa-python:hover {
+  color: #4584b6;
+}
+
+.dev-icons .fa-aws:hover {
+  color: #FF9900;
 }
 
 #sideNav .navbar-nav .nav-item .nav-link {
@@ -117,8 +141,8 @@ p.lead {
     padding: 0.5rem;
   }
   #sideNav .navbar-brand .img-profile {
-    max-width: 10rem;
-    max-height: 10rem;
+    max-width: 15rem;
+    max-height: 15rem;
     border: 0.5rem solid rgba(255, 255, 255, 0.2);
   }
   #sideNav .navbar-collapse {
@@ -153,6 +177,12 @@ section.resume-section {
   padding-top: 5rem !important;
   padding-bottom: 5rem !important;
   max-width: 75rem;
+}
+
+section.resume-section .img-profile {
+  max-width: 15rem;
+  max-height: 15rem;
+  border: 0.5rem solid rgba(189, 93, 56, 0.2);
 }
 
 section.resume-section .resume-item .resume-date {
