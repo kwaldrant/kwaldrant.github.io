@@ -263,15 +263,6 @@ styles for printing
 @media print {
   section.resume-section {
     min-height: max-content;
-    padding-top: 0px;
-    padding-bottom: 0px;
-  }
-
-  .social-icons a {
-    background-color: rgb(73, 80, 87) !important;
-  }
-
-  footer {
-    display: none !important;
+    padding: 0;
   }
 }
