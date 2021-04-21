@@ -180,7 +180,6 @@ section.resume-section {
 section.resume-section .img-profile {
   max-width: 15rem;
   max-height: 15rem;
-  border: 0.5rem solid rgba(189, 93, 56, 0.7);
 }
 
 section.resume-section .resume-item .resume-date {
