@@ -1,4 +1,4 @@
-/*!
+/*
  * Start Bootstrap - Resume v5.0.2 (https://startbootstrap.com/template-overviews/resume)
  * Copyright 2013-2018 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
@@ -9,7 +9,7 @@
 } */
 
 body {
-  font-family: 'Muli', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-family: Tahoma, Verdana, Geneva, sans-serif;
   padding-top: 54px;
   color: #868e96;
 }
@@ -27,42 +27,43 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-  font-weight: 700;
+  font-family: Tahoma, Verdana, Geneva, sans-serif;
+  font-weight: 600;
   text-transform: uppercase;
   color: #343a40;
 }
 
-h1 {
-  font-size: 4rem;
-  line-height: 3.5rem;
+.sub-color {
+  color: #343a40;
 }
 
+
 h2 {
-  font-size: 3.5rem;
+  font-size: 1.25rem;
 }
 
 h3 {
-  font-size: 2rem;
+  font-size: 1rem;
 }
 
 p.lead {
-  font-size: 1.15rem;
+  font-size: 1rem;
   font-weight: 400;
 }
 
 .subheading-1 {
   text-transform: uppercase;
   font-weight: 500;
-  font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-  font-size: 1.5rem;
+  font-family: Tahoma, Verdana, Geneva, sans-serif;
+  font-size: 1.15rem;
+  margin-bottom: .5rem;
 }
 
 .subheading-2 {
   text-transform: uppercase;
   font-weight: 500;
-  font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-  font-size: 1.2rem;
+  font-family: Tahoma, Verdana, Geneva, sans-serif;
+  font-size: 1.1rem;
 }
 
 .social-icons a {
@@ -74,7 +75,7 @@ p.lead {
   border-radius: 100%;
   text-align: center;
   font-size: 1.5rem;
-  line-height: 3.5rem;
+  line-height: 3.3rem;
   margin-right: 1rem;
 }
 
@@ -104,7 +105,51 @@ p.lead {
   outline-color: #d48a6e;
 }
 
+
+
+section.resume-section {
+  padding-top: 5rem !important;
+  padding-bottom: 5rem !important;
+  max-width: 75rem;
+}
+
+section.resume-section .img-profile {
+  max-width: 15rem;
+  max-height: 15rem;
+}
+
+section.resume-section .resume-item .resume-date {
+  min-width: none;
+}
+
+@media (min-width: 576px) {
+  h1 {
+    font-size: 2rem;
+    line-height: 1.75rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .subheading-1{
+    margin-bottom: 3rem;
+  }
+  
+  h1 {
+    font-size: 4rem;
+    line-height: 3.5rem;
+  }
+
+  section.resume-section {
+    min-height: 100vh;
+  }
+
+  section.resume-section .resume-item .resume-date {
+    min-width: 18rem;
+  }
+}
+
 @media (min-width: 992px) {
+
   #sideNav {
     text-align: center;
     position: fixed;
@@ -167,38 +212,6 @@ p.lead {
   section.resume-section {
     padding-top: 3rem !important;
     padding-bottom: 3rem !important;
-  }
-}
-
-section.resume-section {
-  padding-top: 5rem !important;
-  padding-bottom: 5rem !important;
-  max-width: 75rem;
-}
-
-section.resume-section .img-profile {
-  max-width: 15rem;
-  max-height: 15rem;
-}
-
-section.resume-section .resume-item .resume-date {
-  min-width: none;
-}
-
-@media (min-width: 768px) {
-  section.resume-section {
-    min-height: 100vh;
-  }
-
-  section.resume-section .resume-item .resume-date {
-    min-width: 18rem;
-  }
-}
-
-@media (min-width: 576px) {
-  h1 {
-    font-size: 6rem;
-    line-height: 5.5rem;
   }
 }
 
